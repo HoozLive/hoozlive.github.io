@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.btn {
+.return-btn {
     display: flex;
     border: 1px solid var(--BORDER-COLOR);
     border-radius: 10px;
@@ -131,7 +131,7 @@ a:hover, a:active {
         margin: 30px 30px 60px;
     }
 
-    .btn {
+    .return-btn {
         font-size: 18px;
     }
 }
@@ -150,7 +150,7 @@ a:hover, a:active {
         width: 100%;
     }
 
-    .btn {
+    .return-btn {
         font-size: 15px;
     }
 }
