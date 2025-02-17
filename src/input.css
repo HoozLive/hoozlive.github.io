@@ -29,3 +29,19 @@
     60% {top: 35%; right: -10%;transform: scale(1);}
     100% {top: 35%; right: 0%; transform: scale(1);}
 }
+
+@keyframes bounce-left {
+    0%, 100% {
+      transform: translateX(5%);
+      animation-timing-function: cubic-bezier(0.8,0,1,1);
+    }
+  
+    50% {
+      transform: none;
+      animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
+}
+
+.hover\:animate-bounce-left:hover {
+    animation: bounce-left 1s infinite;
+}
