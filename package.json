@@ -1,0 +1,23 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/HoozLive/hoozlive.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/HoozLive/hoozlive.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoozLive/hoozlive.github.io.git"
+  },
+  "license": "ISC",
+  "author": "Hooz",
+  "type": "commonjs",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
